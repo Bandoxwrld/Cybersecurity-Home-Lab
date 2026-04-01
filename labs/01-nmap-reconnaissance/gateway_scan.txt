@@ -1,1 +1,114 @@
+# Nmap 7.98 scan initiated Wed Apr  1 00:35:26 2026 as: /usr/lib/nmap/nmap -sV -sC -oN /home/kali/Desktop/gateway_scan.txt 10.0.2.2
+Nmap scan report for 10.0.2.2
+Host is up (0.0018s latency).
+Not shown: 997 closed tcp ports (reset)
+PORT     STATE SERVICE    VERSION
+5000/tcp open  rtsp
+|_rtsp-methods: ERROR: Script execution failed (use -d to debug)
+| fingerprint-strings: 
+|   FourOhFourRequest: 
+|     HTTP/1.1 403 Forbidden
+|     Content-Length: 0
+|     Server: AirTunes/870.14.1
+|     X-Apple-ProcessingTime: 0
+|     X-Apple-RequestReceivedTimestamp: 262406950
+|   GetRequest: 
+|     HTTP/1.1 403 Forbidden
+|     Content-Length: 0
+|     Server: AirTunes/870.14.1
+|     X-Apple-ProcessingTime: 0
+|     X-Apple-RequestReceivedTimestamp: 262401912
+|   HTTPOptions: 
+|     HTTP/1.1 403 Forbidden
+|     Content-Length: 0
+|     Server: AirTunes/870.14.1
+|     X-Apple-ProcessingTime: 0
+|     X-Apple-RequestReceivedTimestamp: 262406942
+|   RTSPRequest: 
+|     RTSP/1.0 403 Forbidden
+|     Content-Length: 0
+|     Server: AirTunes/870.14.1
+|     X-Apple-ProcessingTime: 0
+|     X-Apple-RequestReceivedTimestamp: 262401942
+|   SIPOptions: 
+|     RTSP/1.0 403 Forbidden
+|     Content-Length: 0
+|     Server: AirTunes/870.14.1
+|     CSeq: 42 OPTIONS
+|     X-Apple-ProcessingTime: 0
+|_    X-Apple-RequestReceivedTimestamp: 262406958
+7000/tcp open  rtsp
+| fingerprint-strings: 
+|   FourOhFourRequest: 
+|     HTTP/1.1 403 Forbidden
+|     Content-Length: 0
+|     Server: AirTunes/870.14.1
+|     X-Apple-ProcessingTime: 0
+|     X-Apple-RequestReceivedTimestamp: 262406942
+|   GetRequest: 
+|     HTTP/1.1 403 Forbidden
+|     Content-Length: 0
+|     Server: AirTunes/870.14.1
+|     X-Apple-ProcessingTime: 0
+|     X-Apple-RequestReceivedTimestamp: 262406926
+|   HTTPOptions: 
+|     HTTP/1.1 403 Forbidden
+|     Content-Length: 0
+|     Server: AirTunes/870.14.1
+|     X-Apple-ProcessingTime: 0
+|     X-Apple-RequestReceivedTimestamp: 262406932
+|   RTSPRequest: 
+|     RTSP/1.0 403 Forbidden
+|     Content-Length: 0
+|     Server: AirTunes/870.14.1
+|     X-Apple-ProcessingTime: 2
+|     X-Apple-RequestReceivedTimestamp: 262401909
+|   SIPOptions: 
+|     RTSP/1.0 403 Forbidden
+|     Content-Length: 0
+|     Server: AirTunes/870.14.1
+|     CSeq: 42 OPTIONS
+|     X-Apple-ProcessingTime: 1
+|_    X-Apple-RequestReceivedTimestamp: 262406954
+|_rtsp-methods: ERROR: Script execution failed (use -d to debug)
+|_irc-info: Unable to open connection
+8021/tcp open  tcpwrapped
+2 services unrecognized despite returning data. If you know the service/version, please submit the following fingerprints at https://nmap.org/cgi-bin/submit.cgi?new-service :
+==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
+SF-Port5000-TCP:V=7.98%I=7%D=4/1%Time=69CCA095%P=x86_64-pc-linux-gnu%r(Get
+SF:Request,90,"HTTP/1\.1\x20403\x20Forbidden\r\nContent-Length:\x200\r\nSe
+SF:rver:\x20AirTunes/870\.14\.1\r\nX-Apple-ProcessingTime:\x200\r\nX-Apple
+SF:-RequestReceivedTimestamp:\x20262401912\r\n\r\n")%r(RTSPRequest,90,"RTS
+SF:P/1\.0\x20403\x20Forbidden\r\nContent-Length:\x200\r\nServer:\x20AirTun
+SF:es/870\.14\.1\r\nX-Apple-ProcessingTime:\x200\r\nX-Apple-RequestReceive
+SF:dTimestamp:\x20262401942\r\n\r\n")%r(HTTPOptions,90,"HTTP/1\.1\x20403\x
+SF:20Forbidden\r\nContent-Length:\x200\r\nServer:\x20AirTunes/870\.14\.1\r
+SF:\nX-Apple-ProcessingTime:\x200\r\nX-Apple-RequestReceivedTimestamp:\x20
+SF:262406942\r\n\r\n")%r(FourOhFourRequest,90,"HTTP/1\.1\x20403\x20Forbidd
+SF:en\r\nContent-Length:\x200\r\nServer:\x20AirTunes/870\.14\.1\r\nX-Apple
+SF:-ProcessingTime:\x200\r\nX-Apple-RequestReceivedTimestamp:\x20262406950
+SF:\r\n\r\n")%r(SIPOptions,A2,"RTSP/1\.0\x20403\x20Forbidden\r\nContent-Le
+SF:ngth:\x200\r\nServer:\x20AirTunes/870\.14\.1\r\nCSeq:\x2042\x20OPTIONS\
+SF:r\nX-Apple-ProcessingTime:\x200\r\nX-Apple-RequestReceivedTimestamp:\x2
+SF:0262406958\r\n\r\n");
+==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
+SF-Port7000-TCP:V=7.98%I=7%D=4/1%Time=69CCA09A%P=x86_64-pc-linux-gnu%r(RTS
+SF:PRequest,90,"RTSP/1\.0\x20403\x20Forbidden\r\nContent-Length:\x200\r\nS
+SF:erver:\x20AirTunes/870\.14\.1\r\nX-Apple-ProcessingTime:\x202\r\nX-Appl
+SF:e-RequestReceivedTimestamp:\x20262401909\r\n\r\n")%r(GetRequest,90,"HTT
+SF:P/1\.1\x20403\x20Forbidden\r\nContent-Length:\x200\r\nServer:\x20AirTun
+SF:es/870\.14\.1\r\nX-Apple-ProcessingTime:\x200\r\nX-Apple-RequestReceive
+SF:dTimestamp:\x20262406926\r\n\r\n")%r(HTTPOptions,90,"HTTP/1\.1\x20403\x
+SF:20Forbidden\r\nContent-Length:\x200\r\nServer:\x20AirTunes/870\.14\.1\r
+SF:\nX-Apple-ProcessingTime:\x200\r\nX-Apple-RequestReceivedTimestamp:\x20
+SF:262406932\r\n\r\n")%r(FourOhFourRequest,90,"HTTP/1\.1\x20403\x20Forbidd
+SF:en\r\nContent-Length:\x200\r\nServer:\x20AirTunes/870\.14\.1\r\nX-Apple
+SF:-ProcessingTime:\x200\r\nX-Apple-RequestReceivedTimestamp:\x20262406942
+SF:\r\n\r\n")%r(SIPOptions,A2,"RTSP/1\.0\x20403\x20Forbidden\r\nContent-Le
+SF:ngth:\x200\r\nServer:\x20AirTunes/870\.14\.1\r\nCSeq:\x2042\x20OPTIONS\
+SF:r\nX-Apple-ProcessingTime:\x201\r\nX-Apple-RequestReceivedTimestamp:\x2
+SF:0262406954\r\n\r\n");
+MAC Address: 52:55:0A:00:02:02 (Unknown)
 
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Wed Apr  1 00:35:54 2026 -- 1 IP address (1 host up) scanned in 28.43 seconds
