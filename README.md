@@ -13,9 +13,9 @@ Hands-on home lab environment built for SOC Analyst and Network Technician caree
 | Lab | Tools Used | Date |
 |-----|-----------|------|
 | Nmap Network Reconnaissance | Nmap 7.98, Kali Linux | March 2026 |
+| Wireshark Traffic Analysis | Wireshark 4.6.4, Kali Linux | April 2026 |
 
 ## In Progress
-- Wireshark Traffic Analysis
 - Splunk SIEM Setup
 - TryHackMe SOC Level 1 Path
 
