@@ -6,8 +6,8 @@ Hands-on home lab environment built for SOC Analyst and Network Technician caree
 
 ## Lab Environment
 - MacBook Pro 13" (Intel Core i5, 8GB RAM, macOS Sequoia 15.7.5)
-- Kali Linux 2026.1 on VirtualBox — offensive tools and TryHackMe
-- Windows 11 on UTM — SOC labs, Splunk, Sysmon, Wireshark
+- Kali Linux 2026.1 on VirtualBox - offensive tools and TryHackMe
+- Windows 11 on UTM - SOC labs, Splunk, Sysmon, Wireshark
 
 ## Completed Labs
 | Lab | Tools Used | Date |
