@@ -16,6 +16,7 @@ Hands-on home lab environment built for SOC Analyst and Network Technician caree
 | Wireshark Traffic Analysis | Wireshark 4.6.4, Kali Linux | April 2026 |
 | Splunk SIEM Setup | Splunk Enterprise 10.2.2, Windows 11 | April 2026 |
 | Sysmon Endpoint Telemetry | Sysmon v15.20, Splunk 10.2.2, Windows 11 | April 2026 |
+| Simulated Attack and Detection | Nmap, Nikto, Kali Linux, Sysmon, Splunk | April 2026 |
 
 ## In Progress
 - TryHackMe SOC Level 1 Path
